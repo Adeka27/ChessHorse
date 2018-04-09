@@ -1,0 +1,7 @@
+#menu{
+-fx-background-image: url("menu.png");
+-fx-background-radius: 30em;
+}
+#menu:hover{
+ -fx-background-image: url("menu_dark.png");
+}

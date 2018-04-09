@@ -1,0 +1,10 @@
+.root {
+    -fx-background-image:url('rules1.gif');
+}
+.Close{
+-fx-background-image: url("close.png");
+-fx-background-radius: 30em;
+}
+.Close:hover{
+-fx-background-image: url("close_dark.png");
+}

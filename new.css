@@ -1,0 +1,18 @@
+.root{
+-fx-background-image:url('new.png');
+}
+#name{
+-fx-font-family: Agency FB Regular;
+-fx-font-size: 20px;
+}
+#ok{
+-fx-background-image: url("ok.png");
+}
+#ok:hover{
+-fx-background-image: url("ok_dark.png");
+}
+
+#notification{
+     -fx-text-fill: #cc2525;
+     -fx-font-size: 15px;
+}

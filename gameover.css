@@ -1,0 +1,17 @@
+.root {
+    -fx-background-image:url('gameover.png');
+}
+.Menu{
+-fx-background-image: url("menu.png");
+-fx-background-radius: 30em;
+}
+.Retry{
+-fx-background-image: url("retry.png");
+-fx-background-radius: 30em;
+}
+.Menu:hover{
+-fx-background-image: url("menu_dark.png");
+}
+.Retry:hover{
+ -fx-background-image: url("retry_dark.png");
+ }

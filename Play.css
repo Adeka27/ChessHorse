@@ -1,0 +1,48 @@
+.Cell{
+-fx-background-image: url("cell2.png");
+-fx-background-radius: 30em;
+-fx-text-fill: #862876;
+}
+.Horse{
+-fx-background-image: url("horse.png");
+-fx-background-radius: 30em;
+-fx-text-fill: #000000;
+}
+.TrueWay:hover{
+-fx-background-image: url("truecell.png");
+-fx-text-fill: #619a71;
+}
+.Retry{
+-fx-background-image: url("retry.png");
+-fx-background-radius: 30em;
+}
+.Retry:hover{
+ -fx-background-image: url("retry_dark.png");
+ }
+ #sc{
+ -fx-font-family: Bubble3D Regular;
+ -fx-text-fill: #ff8fc6;
+ -fx-font-size: 40px;
+  }
+  #music_on{
+  -fx-background-image: url("music_yes.png");
+  -fx-background-radius: 30em;
+  }
+  #music_on:hover{
+  -fx-background-image: url("music_yes_dark.png");
+  }
+  #music_off{
+  -fx-background-image: url("music.png");
+  -fx-background-radius: 30em;
+  }
+  #music_off:hover{
+  -fx-background-image: url("music_dark.png");
+  }
+  #menu{
+    -fx-background-image: url("menu.png");
+    -fx-background-radius: 30em;
+    }
+    #menu:hover{
+    -fx-background-image: url("menu_dark.png");
+    }
+

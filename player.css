@@ -1,0 +1,27 @@
+.root {
+    -fx-background-image:url('player.gif');
+}
+#Add{
+-fx-background-image: url("add.png");
+}
+#Add:hover{
+-fx-background-image: url("add_dark.png");
+}
+#player{
+ -fx-background-image: url("player.png");
+ -fx-font-family: Century Schoolbook Italic;
+ -fx-text-fill: #ffffff;
+ -fx-font-size: 25px;
+ }
+ #player:hover{
+ -fx-background-image: url("player_dark.png");
+ }
+ #gold{
+  -fx-background-image: url("gold.png");
+  -fx-font-family: Century Schoolbook Italic;
+   -fx-text-fill: #030303;
+   -fx-font-size: 25px;
+  }
+  #gold:hover{
+  -fx-background-image: url("gold_dark.png");
+  }

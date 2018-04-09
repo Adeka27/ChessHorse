@@ -1,0 +1,40 @@
+.Play{
+-fx-background-image: url("play.png");
+-fx-background-radius: 30em;
+}
+.Play:hover{
+-fx-background-image: url("play_dark.png");
+}
+.Recital{
+-fx-background-image: url("recital.png");
+-fx-background-radius: 30em;
+}
+.Recital:hover{
+-fx-background-image: url("recital_dark.png");
+}
+.Exit{
+-fx-background-image: url("exit.png");
+-fx-background-radius: 30em;
+}
+.Exit:hover{
+-fx-background-image: url("exit_dark.png");
+}
+#text{
+-fx-font-family: Bubble3D Regular;
+     -fx-text-fill: #2c8b2c;
+     -fx-font-size: 40px;
+}
+#music_on{
+-fx-background-image: url("music_on.png");
+-fx-background-radius: 30em;
+}
+#music_on:hover{
+-fx-background-image: url("music_on_dark.png");
+}
+#music_off{
+-fx-background-image: url("music_off.png");
+-fx-background-radius: 30em;
+}
+#music_off:hover{
+-fx-background-image: url("music_off_dark.png");
+}
