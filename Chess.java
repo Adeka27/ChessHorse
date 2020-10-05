@@ -1243,27 +1243,28 @@ the color when hovering*/
 
         //Give a special id for this buttons
         for (int index = 0; index < buttons.size(); index++) {
-            if (!checkCell(buttons.get(index)) && buttons.get(index).getText().equals(number_first)){
+            String statement = buttons.get(index)) && buttons.get(index).getText();
+            if (!checkCell(statement.equals(number_first)){
                     buttons.get(index).getStyleClass().add("TrueWay");}
-            if (!checkCell(buttons.get(index)) && buttons.get(index).getText().equals(number_second)){
+            if (!checkCell(statement.equals(number_second)){
                 buttons.get(index).getStyleClass().add("TrueWay");
             }
-            if (!checkCell(buttons.get(index)) && buttons.get(index).getText().equals(number_third)){
+            if (!checkCell(statement.equals(number_third)){
                 buttons.get(index).getStyleClass().add("TrueWay");
             }
-            if (!checkCell(buttons.get(index)) && buttons.get(index).getText().equals(number_fourth)){
+            if (!checkCell(statement.equals(number_fourth)){
                 buttons.get(index).getStyleClass().add("TrueWay");
             }
-            if (!checkCell(buttons.get(index)) && buttons.get(index).getText().equals(number_fiveth)){
+            if (!checkCell(statement.equals(number_fiveth)){
                 buttons.get(index).getStyleClass().add("TrueWay");
             }
-            if (!checkCell(buttons.get(index)) && buttons.get(index).getText().equals(number_sixth)){
+            if (!checkCell(statement.getText().equals(number_sixth)){
                 buttons.get(index).getStyleClass().add("TrueWay");
             }
-            if (!checkCell(buttons.get(index)) && buttons.get(index).getText().equals(number_seventh)){
+            if (!checkCell(statement.equals(number_seventh)){
                 buttons.get(index).getStyleClass().add("TrueWay");
             }
-            if (!checkCell(buttons.get(index)) && buttons.get(index).getText().equals(number_eighth)){
+            if (!checkCell(statement.equals(number_eighth)){
                 buttons.get(index).getStyleClass().add("TrueWay");
             }
         }
